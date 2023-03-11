@@ -22,7 +22,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: Go-Test-Results
-          path: GoTestResults
+          path: GoTestResults.json
 
       - name: Build Application
         run: go build -v ./...
