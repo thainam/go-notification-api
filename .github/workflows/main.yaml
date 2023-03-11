@@ -16,7 +16,7 @@ jobs:
         run: go get -u -d ./...
 
       - name: Test with Go CLI
-        run: go test -json > GoTestResults.json
+        run: go test ./... -json > GoTestResults.json
 
       - name: Upload Go Test Results
         uses: actions/upload-artifact@v3
