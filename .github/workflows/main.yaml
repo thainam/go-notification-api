@@ -13,7 +13,7 @@ jobs:
           go-version: '1.19'
 
       - name: Install Dependencies
-        run: go get .
+        run: go get -u -d ./...
 
       - name: Test with Go CLI
         run: go test -json > GoTestResults.json
