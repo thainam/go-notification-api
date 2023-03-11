@@ -4,16 +4,21 @@
 
 #### 
 
-**Important:** This GO application was created for learning purpose only. If you're new in GO maybe here you can explore a little bit more about the language
+**Important:** This GO application was created for learning purpose only. If you're new in GO maybe here you can explore a little bit more about the language.
 
 ## What is this application?
 
 This application will have 4 endpoints:
 
-* GET /health - Endpoint to check if the webserver is healthy. (Available 🎉️)
-* GET /notifications - Endpoint to list the notifications from database. (Available 🎉️)
-* GET /notifications/{id} - Endpoint to get details of a specific notification. (Work in Progress 🕙)
-* POST /notifications - Endpoint to create a new notification. (Work in Progress 🕙)
+🎉️ Available:
+
+* GET /health - Endpoint to check if the webserver is healthy.
+* GET /notifications - Endpoint to list the notifications from database.
+
+🕙 Work in Progress:
+
+* GET /notifications/{id} - Endpoint to get details of a specific notification.
+* POST /notifications - Endpoint to create a new notification.
 
 ## Where does Kafka fit into this application?
 
