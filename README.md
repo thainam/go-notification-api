@@ -1,6 +1,6 @@
 # GO Notification API
 
-[![Go Test & Build](https://github.com/thainam/go-notification-api/actions/workflows/main.yaml/badge.svg)](https://github.com/thainam/go-notification-api/actions/workflows/main.yaml)
+[![Go Test & Build](https://github.com/thainam/go-notification-api/actions/workflows/main.yaml/badge.svg)](https://github.com/thainam/go-notification-api/actions/workflows/main.yaml) ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/thainam/go-notification-api) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/thainam/go-notification-api?label=version) ![GitHub Release Date](https://img.shields.io/github/release-date/thainam/go-notification-api)
 
 #### 
 
@@ -34,7 +34,6 @@ For now, it's only possible to publish the notification int Kafka topic using th
 ```
 
 In the future will be possible to use an endpoint to publish the notifications to kafka. Like said above.
-
 
 ## How can I start the application?
 
