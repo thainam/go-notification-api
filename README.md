@@ -43,4 +43,7 @@ With this all set, just run:
 
 `docker-compose up -d --build`
 
+PS: Make sure you have this line not commented out in your hosts file:
+`192.168.0.61 host.docker.internal`
+
 Enjoy it! 🎉️
